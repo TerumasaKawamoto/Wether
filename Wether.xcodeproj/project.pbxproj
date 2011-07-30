@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88D978B013E407D100A5A51F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978AF13E407D100A5A51F /* UIKit.framework */; };
+		88D978B213E407D100A5A51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978B113E407D100A5A51F /* Foundation.framework */; };
+		88D978B413E407D100A5A51F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978B313E407D100A5A51F /* CoreGraphics.framework */; };
+		88D978BA13E407D100A5A51F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88D978B813E407D100A5A51F /* InfoPlist.strings */; };
+		88D978BC13E407D100A5A51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D978BB13E407D100A5A51F /* main.m */; };
+		88D978C013E407D100A5A51F /* WetherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D978BF13E407D100A5A51F /* WetherAppDelegate.m */; };
+		88D978C313E407D100A5A51F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D978C113E407D100A5A51F /* MainWindow.xib */; };
+		88D978C613E407D100A5A51F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D978C513E407D100A5A51F /* RootViewController.m */; };
+		88D978C913E407D100A5A51F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88D978C713E407D100A5A51F /* RootViewController.xib */; };
+		88D978D113E407D100A5A51F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978D013E407D100A5A51F /* SenTestingKit.framework */; };
+		88D978D213E407D100A5A51F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978AF13E407D100A5A51F /* UIKit.framework */; };
+		88D978D313E407D100A5A51F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978B113E407D100A5A51F /* Foundation.framework */; };
+		88D978D413E407D100A5A51F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D978B313E407D100A5A51F /* CoreGraphics.framework */; };
+		88D978DC13E407D100A5A51F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88D978DA13E407D100A5A51F /* InfoPlist.strings */; };
+		88D978DE13E407D100A5A51F /* WetherTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 88D978DD13E407D100A5A51F /* WetherTests.h */; };
+		88D978E013E407D100A5A51F /* WetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D978DF13E407D100A5A51F /* WetherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88D978D513E407D100A5A51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88D978A213E407D100A5A51F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88D978AA13E407D100A5A51F;
+			remoteInfo = Wether;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88D978AB13E407D100A5A51F /* Wether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D978AF13E407D100A5A51F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		88D978B113E407D100A5A51F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88D978B313E407D100A5A51F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		88D978B713E407D100A5A51F /* Wether-Info.plist */ = {isa = PBXFileReference; path = "Wether-Info.plist"; sourceTree = "<group>"; };
+		88D978B913E407D100A5A51F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88D978BB13E407D100A5A51F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88D978BD13E407D100A5A51F /* Wether-Prefix.pch */ = {isa = PBXFileReference; path = "Wether-Prefix.pch"; sourceTree = "<group>"; };
+		88D978BE13E407D100A5A51F /* WetherAppDelegate.h */ = {isa = PBXFileReference; path = WetherAppDelegate.h; sourceTree = "<group>"; };
+		88D978BF13E407D100A5A51F /* WetherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetherAppDelegate.m; sourceTree = "<group>"; };
+		88D978C213E407D100A5A51F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		88D978C413E407D100A5A51F /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		88D978C513E407D100A5A51F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		88D978C813E407D100A5A51F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		88D978CF13E407D100A5A51F /* WetherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88D978D013E407D100A5A51F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		88D978D913E407D100A5A51F /* WetherTests-Info.plist */ = {isa = PBXFileReference; path = "WetherTests-Info.plist"; sourceTree = "<group>"; };
+		88D978DB13E407D100A5A51F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		88D978DD13E407D100A5A51F /* WetherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WetherTests.h; sourceTree = "<group>"; };
+		88D978DF13E407D100A5A51F /* WetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WetherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88D978A813E407D100A5A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978B013E407D100A5A51F /* UIKit.framework in Frameworks */,
+				88D978B213E407D100A5A51F /* Foundation.framework in Frameworks */,
+				88D978B413E407D100A5A51F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D978CB13E407D100A5A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978D113E407D100A5A51F /* SenTestingKit.framework in Frameworks */,
+				88D978D213E407D100A5A51F /* UIKit.framework in Frameworks */,
+				88D978D313E407D100A5A51F /* Foundation.framework in Frameworks */,
+				88D978D413E407D100A5A51F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88D978A013E407D100A5A51F = {
+			isa = PBXGroup;
+			children = (
+				88D978B513E407D100A5A51F /* Wether */,
+				88D978D713E407D100A5A51F /* WetherTests */,
+				88D978AE13E407D100A5A51F /* Frameworks */,
+				88D978AC13E407D100A5A51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88D978AC13E407D100A5A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88D978AB13E407D100A5A51F /* Wether.app */,
+				88D978CF13E407D100A5A51F /* WetherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88D978AE13E407D100A5A51F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D978AF13E407D100A5A51F /* UIKit.framework */,
+				88D978B113E407D100A5A51F /* Foundation.framework */,
+				88D978B313E407D100A5A51F /* CoreGraphics.framework */,
+				88D978D013E407D100A5A51F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88D978B513E407D100A5A51F /* Wether */ = {
+			isa = PBXGroup;
+			children = (
+				88D978BE13E407D100A5A51F /* WetherAppDelegate.h */,
+				88D978BF13E407D100A5A51F /* WetherAppDelegate.m */,
+				88D978C113E407D100A5A51F /* MainWindow.xib */,
+				88D978C413E407D100A5A51F /* RootViewController.h */,
+				88D978C513E407D100A5A51F /* RootViewController.m */,
+				88D978C713E407D100A5A51F /* RootViewController.xib */,
+				88D978B613E407D100A5A51F /* Supporting Files */,
+			);
+			path = Wether;
+			sourceTree = "<group>";
+		};
+		88D978B613E407D100A5A51F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88D978B713E407D100A5A51F /* Wether-Info.plist */,
+				88D978B813E407D100A5A51F /* InfoPlist.strings */,
+				88D978BB13E407D100A5A51F /* main.m */,
+				88D978BD13E407D100A5A51F /* Wether-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88D978D713E407D100A5A51F /* WetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				88D978DD13E407D100A5A51F /* WetherTests.h */,
+				88D978DF13E407D100A5A51F /* WetherTests.m */,
+				88D978D813E407D100A5A51F /* Supporting Files */,
+			);
+			path = WetherTests;
+			sourceTree = "<group>";
+		};
+		88D978D813E407D100A5A51F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88D978D913E407D100A5A51F /* WetherTests-Info.plist */,
+				88D978DA13E407D100A5A51F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88D978AA13E407D100A5A51F /* Wether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D978E313E407D100A5A51F /* Build configuration list for PBXNativeTarget "Wether" */;
+			buildPhases = (
+				88D978A713E407D100A5A51F /* Sources */,
+				88D978A813E407D100A5A51F /* Frameworks */,
+				88D978A913E407D100A5A51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wether;
+			productName = Wether;
+			productReference = 88D978AB13E407D100A5A51F /* Wether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88D978CE13E407D100A5A51F /* WetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D978E613E407D100A5A51F /* Build configuration list for PBXNativeTarget "WetherTests" */;
+			buildPhases = (
+				88D978CA13E407D100A5A51F /* Sources */,
+				88D978CB13E407D100A5A51F /* Frameworks */,
+				88D978CC13E407D100A5A51F /* Resources */,
+				88D978CD13E407D100A5A51F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88D978D613E407D100A5A51F /* PBXTargetDependency */,
+			);
+			name = WetherTests;
+			productName = WetherTests;
+			productReference = 88D978CF13E407D100A5A51F /* WetherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88D978A213E407D100A5A51F /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 88D978A513E407D100A5A51F /* Build configuration list for PBXProject "Wether" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 88D978A013E407D100A5A51F;
+			productRefGroup = 88D978AC13E407D100A5A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88D978AA13E407D100A5A51F /* Wether */,
+				88D978CE13E407D100A5A51F /* WetherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88D978A913E407D100A5A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978BA13E407D100A5A51F /* InfoPlist.strings in Resources */,
+				88D978C313E407D100A5A51F /* MainWindow.xib in Resources */,
+				88D978C913E407D100A5A51F /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D978CC13E407D100A5A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978DC13E407D100A5A51F /* InfoPlist.strings in Resources */,
+				88D978DE13E407D100A5A51F /* WetherTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88D978CD13E407D100A5A51F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D978A713E407D100A5A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978BC13E407D100A5A51F /* main.m in Sources */,
+				88D978C013E407D100A5A51F /* WetherAppDelegate.m in Sources */,
+				88D978C613E407D100A5A51F /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D978CA13E407D100A5A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D978E013E407D100A5A51F /* WetherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88D978D613E407D100A5A51F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88D978AA13E407D100A5A51F /* Wether */;
+			targetProxy = 88D978D513E407D100A5A51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88D978B813E407D100A5A51F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D978B913E407D100A5A51F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		88D978C113E407D100A5A51F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D978C213E407D100A5A51F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		88D978C713E407D100A5A51F /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D978C813E407D100A5A51F /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		88D978DA13E407D100A5A51F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88D978DB13E407D100A5A51F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88D978E113E407D100A5A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88D978E213E407D100A5A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88D978E413E407D100A5A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wether/Wether-Prefix.pch";
+				INFOPLIST_FILE = "Wether/Wether-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		88D978E513E407D100A5A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wether/Wether-Prefix.pch";
+				INFOPLIST_FILE = "Wether/Wether-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		88D978E713E407D100A5A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wether.app/Wether";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wether/Wether-Prefix.pch";
+				INFOPLIST_FILE = "WetherTests/WetherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		88D978E813E407D100A5A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wether.app/Wether";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wether/Wether-Prefix.pch";
+				INFOPLIST_FILE = "WetherTests/WetherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88D978A513E407D100A5A51F /* Build configuration list for PBXProject "Wether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D978E113E407D100A5A51F /* Debug */,
+				88D978E213E407D100A5A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D978E313E407D100A5A51F /* Build configuration list for PBXNativeTarget "Wether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D978E413E407D100A5A51F /* Debug */,
+				88D978E513E407D100A5A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88D978E613E407D100A5A51F /* Build configuration list for PBXNativeTarget "WetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D978E713E407D100A5A51F /* Debug */,
+				88D978E813E407D100A5A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88D978A213E407D100A5A51F /* Project object */;
+}
